@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="197.0" prefWidth="483.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guidemos16.ProfAdderController">
+   <children>
+      <VBox alignment="CENTER" layoutX="2.0" prefHeight="320.0" prefWidth="475.0">
+         <children>
+            <TextField fx:id="field" alignment="CENTER" promptText="Enter name...." />
+            <HBox alignment="BOTTOM_CENTER" prefHeight="49.0" prefWidth="475.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#okClicked" text="Ok" />
+                  <Button mnemonicParsing="false" onAction="#cancelClicked" text="Cancel" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

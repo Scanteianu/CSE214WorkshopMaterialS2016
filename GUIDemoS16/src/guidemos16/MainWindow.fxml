@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="331.0" prefWidth="451.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guidemos16.MainWindowController">
+   <children>
+      <VBox alignment="CENTER" layoutX="2.0" layoutY="2.0" prefHeight="331.0" prefWidth="451.0">
+         <children>
+            <Label fx:id="nameLabel" text="Click a Button!" />
+            <Button mnemonicParsing="false" onAction="#selectProf" text="Pick A Professor!" />
+            <Button mnemonicParsing="false" onAction="#addProf" text="Add Professor" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
